@@ -316,7 +316,6 @@ input:focus, textarea:focus{
   box-shadow: 0 0 3px black;
   text-align: center;
   height: 100px;
-  opacity: .5;
 }
 
 .header-logo{
