@@ -5,6 +5,8 @@
 		$sql = "SELECT title, artist, image, product_id FROM `products` ORDER BY rand() LIMIT 8";
 
 		$stmt = $db->query($sql);
+
+		$featuredProducts;
     
   	while($row = $stmt->fetch()){
     	$featuredProducts .= "<a href=\"product-detail.php?id=";
