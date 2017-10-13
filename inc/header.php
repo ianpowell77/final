@@ -1,5 +1,5 @@
-<header>
 <?php error_reporting(0); ?>
+<header>
 	<div class="header-container">
 		<img class="header-logo" src="lib/img/headphones.svg">
 		<nav>
