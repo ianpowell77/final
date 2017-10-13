@@ -2,7 +2,7 @@
 
 try{ // make db connection
         // This is the new standard db connection
-        $db = new PDO('mysql:host=localhost;dbname=ipowell_final','root','root');
+        $db = new PDO('mysql:host=localhost;dbname=ipowell_final','r2hstudent','SbFaGzNgGIE8kfP');
         $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
         //Turn OFF emulated prepared statements!
         $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
