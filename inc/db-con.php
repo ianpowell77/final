@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 try{ // make db connection
         // This is the new standard db connection
         $db = new PDO('mysql:host=localhost;dbname=ipowell_final','r2hstudent','SbFaGzNgGIE8kfP');
